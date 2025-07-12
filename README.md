@@ -10,6 +10,6 @@ Welcome to my learning repository! This repo documents my journey as I explore P
 
     Coding Ninjas courses
     LeetCode & GeeksforGeeks practice
-    Other online resources
+    Youtube and Other online resources
 
     "Learning is a journey, and this repo is my roadmap." 🚀
