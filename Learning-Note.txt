@@ -4,6 +4,7 @@ Welcome to my learning repository! This repo documents my journey as I explore P
 ✅ Code snippets, exercises, and problem solutions
 ✅ Notes on key concepts in Python & DSA
 ✅ My progress and reflections on learning
+✅ Iam using mac and windows for learning simultaniously 
 📚 Learning Sources
 
     Coding Ninjas courses
