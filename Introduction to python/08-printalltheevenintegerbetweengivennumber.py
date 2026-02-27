@@ -13,8 +13,8 @@ if n > 0:
     for i in range(1,1+n):
         if i%even == 0:
             print(i,end=(","))
-        else:
-            print(end=(" "))
+#         else:
+#             print(end=(" "))
 
 else:
     print("enter the positive number")
