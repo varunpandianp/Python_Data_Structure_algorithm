@@ -29,13 +29,54 @@
 #     print()
 #     i=i+1
 
+# N=int(input())
+# i=1
+# mid =N//2+1
+# while i<=mid:
+# #     space= N - i
+#     j=1
+#     while j<= N-i:
+#         print(" ",end="")
+#         j=j+1
+#     star=1
+#     while star <= 2*i-1:
+#         print("*",end="")
+#         star=star+1
+#     print()
+#     i=i+1
+# i=mid-1
+# while i >=1:
+#      space = N-i
+#      j=1
+#      while j <= space:
+#          print(" ",end="")
+#          j=j+1
+#      star =1
+#      while star <=2*i-1:
+#          print("*",end="")
+#          star=star+1
+#      print()
+#      i=i-1
+
 N=int(input())
 i=1
-mid =N//2+1
+mid = N//2+1
 while i<=mid:
-#     space= N - i
     j=1
-    while j<= N-i:
+    while j<=mid-i:
+        print(" ",end="")
+        j=j+1
+    star=1
+    while star<=2*i-1:
+        print("*",end="")
+        star=star+1
+    print()
+    i=i+1
+
+i=mid-1
+while i >=1:
+    j=1
+    while j<=mid-i:
         print(" ",end="")
         j=j+1
     star=1
@@ -43,17 +84,4 @@ while i<=mid:
         print("*",end="")
         star=star+1
     print()
-    i=i+1
-i=mid-1
-while i >=1:
-     space = N-i
-     j=1
-     while j <= space:
-         print(" ",end="")
-         j=j+1
-     star =1
-     while star <=2*i-1:
-         print("*",end="")
-         star=star+1
-     print()
-     i=i-1
+    i=i-1
