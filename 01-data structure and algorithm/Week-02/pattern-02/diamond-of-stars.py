@@ -57,7 +57,7 @@
 #          star=star+1
 #      print()
 #      i=i-1
-
+#upperpart
 N=int(input())
 i=1
 mid = N//2+1
@@ -72,7 +72,7 @@ while i<=mid:
         star=star+1
     print()
     i=i+1
-
+#lowerpart
 i=mid-1
 while i >=1:
     j=1
